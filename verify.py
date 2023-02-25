@@ -3,7 +3,7 @@ STOP_TOKEN = '.size'
 COMMENT_TOKEN = '//'
 LABEL_START = '.'
 function_names = ['popcntRD', 'BCD_to_long', 'unicode_to_UTF8', 'matrix_transpose', 'ustrncmp', 'gcd_rec', 'tree_traversal', 'pattern_table_update']
-valid_instr = ['ldur', 'stur', 'movk', 'movz', 'add', 'adds', 'subs', 'mvn', 'orr', 'eor', 'ands', 'ubfm', 'asr', 'lsl', 'lsr', 'b', 'b.', 'bl', 'ret', 'nop', 'hlt', 'adr', 'adrp', 'cmp', 'tst']
+valid_instr = ['ldur', 'stur', 'movk', 'movz', 'add', 'adds', 'subs', 'mvn', 'orr', 'eor', 'ands', 'ubfm', 'asr', 'lsl', 'lsr', 'b', 'b.', 'bl', 'ret', 'nop', 'hlt', 'adrp', 'cmp', 'tst']
 
 def verify(lines, fn_name, idx):
     line_num = 0
